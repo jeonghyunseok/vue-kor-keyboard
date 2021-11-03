@@ -1,0 +1,70 @@
+{
+  "name": "vue-kor-keyboard",
+  "version": "0.1.1",
+  "description": "vue virtual qwerty keyboard template(Korean version)",
+  "author": "jeong hyun seok",
+  "license": "MIT",
+  "hompage": "https://github.com/jeonghyunseok/vue-kor-keyboard",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "readme-md-generator": "^1.0.0",
+    "sass": "^1.42.1",
+    "sass-loader": "^10.2.0",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jeonghyunseok/vue-kor-keyboard.git"
+  },
+  "keywords": [
+    "vue",
+    "keyboard",
+    "kor",
+    "qwerty"
+  ],
+  "bugs": {
+    "url": "https://github.com/jeonghyunseok/vue-kor-keyboard/issues"
+  },
+  "homepage": "https://github.com/jeonghyunseok/vue-kor-keyboard#readme"
+}
