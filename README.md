@@ -11,7 +11,6 @@
 ### 🏠 [Homepage](https://github.com/jeonghyunseok/vue-kor-keyboard#readme)
 
 ## Install
-
 ```sh
 npm install vue-kor-keyboard
 ```
